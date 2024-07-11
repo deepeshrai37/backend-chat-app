@@ -13,4 +13,5 @@ wss.on("connection", (ws) => {
   });
 });
 
-console.log(`WebSocket server running on ${wss}`);
+console.log(`WebSocket server running on ${wss.options}`);
+console.log(wss.options);
